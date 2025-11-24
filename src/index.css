@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Utility: clamp text to 2 lines */
+.clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Force reserved space for exactly two lines of a text-lg heading */
+.two-line {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  /* text-lg in Tailwind: font-size 1.125rem, line-height 1.75rem => 2 * 1.75rem = 3.5rem */
+  min-height: 3.5rem;
+}
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-color: #030014; /* Dark fallback to avoid white bars behind transparent hero image areas */
+}
