@@ -13,5 +13,4 @@ Search Popular Movies by year or by keywords
 # Live Version: 
 https://ivanlo.dev/
 
-## TODO: add image
 <img width="1054" height="915" alt="Screenshot 2025-11-24 at 6 19 14 PM" src="https://github.com/user-attachments/assets/7fcd931f-c7a3-4d46-81ac-2f1334955a60" />
